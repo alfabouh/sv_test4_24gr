@@ -1,11 +1,11 @@
 footer {
 	color: white;
-	font-size: 26px;
+	font-size: 22px;
 	font-style: italic;
 }
 
 #menu {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 header {
@@ -71,7 +71,7 @@ button.common_b {
 	width: 100%;
   font-family: "Calibri";
   height: auto + 2px;
-  font-size: 20px;
+  font-size: 18px;
 	font-style: italic;
 	background: linear-gradient(#fff1ff, #fedbff);
 	border-radius: 8px;
@@ -81,7 +81,7 @@ button.common_b {
 button.common_b:hover {
   font-family: "Calibri";
   height: auto + 2px;
-  font-size: 20px;
+  font-size: 18px;
 	font-style: italic;
 	background: linear-gradient(#dec0df, #fee6ff);
 	border-radius: 8px;
@@ -97,7 +97,7 @@ body {
 h1 {
 	line-height: 2;
 	text-align: left;
-	font-size: 26px;
+	font-size: 22px;
 	color: #262626;
 }
 
@@ -161,7 +161,7 @@ a:hover {
 
 table {
   border-collapse: collapse;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 td, tr, th {
@@ -180,7 +180,7 @@ tr:nth-child(odd) {
 form input[type="submit"] {
   font-family: "Calibri";
   height: auto + 2px;
-  font-size: 16px;
+  font-size: 14px;
 	font-style: italic;
 	background: linear-gradient(#f5fff4, #a6e7a7);
 	border-radius: 8px;
@@ -190,7 +190,7 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   font-family: "Calibri";
   height: auto + 2px;
-  font-size: 22px;
+  font-size: 14px;
 	font-style: italic;
 	background: linear-gradient(#a6e7a7, #f5fff4);
 	border-radius: 8px;
@@ -199,7 +199,7 @@ form input[type="submit"]:hover {
 
 html {
 	background-color: #faf9ec;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: "Calibri";
 }
 
