@@ -178,7 +178,6 @@ tr:nth-child(odd) {
 }
 
 form input[type="submit"] {
-  font-family: "Calibri";
   height: auto + 2px;
   font-size: 14px;
 	font-style: italic;
@@ -188,7 +187,6 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  font-family: "Calibri";
   height: auto + 2px;
   font-size: 14px;
 	font-style: italic;
@@ -200,12 +198,16 @@ form input[type="submit"]:hover {
 html {
 	background-color: #faf9ec;
 	font-size: 16px;
-	font-family: "Calibri";
+	font-family: "San Francisco";
 }
 
 /* ====================================== */
 
 @media (min-width: 768px) {
+	html {
+		font-family: "Calibri";
+	}
+
 	.nav_space {
 		max-width: 90%;
 	}
