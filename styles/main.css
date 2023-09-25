@@ -220,19 +220,17 @@ html {
 
 	form input[type="submit"] {
 		font-family: "Calibri";
+		font-size: 20px;
 	}
 	
 	form input[type="submit"]:hover {
 		font-family: "Calibri";
+		font-size: 20px;
 	}
 
 	header {
 		background-color: #89D8E8;
 		border: 3px solid #23373B;
-	}
-
-	form input[type="submit"] {
-		font-size: 20px;
 	}
 
 	table, #hrefs {
@@ -262,6 +260,11 @@ html {
 	form input[type="submit"] {
 		font-size: 22px;
 	}
+
+	form input[type="submit"]:hover {
+		font-size: 22px;
+	}
+
 
 	table, #hrefs {
   	font-size: 20px;
