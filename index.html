@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <link href="bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mission 4</title>
+    </head>
+    <body>
+        <div class="container-fluid mx-3 px-5 py-1">
+        <header>
+            <div class="container-fluid px-2">
+                <img src="./logo.jpg" alt="logo" class="image1">
+                <h1>Сайт, задание 4</h1>
+            </div>
+        </header>
+        <div id="menu">
+            <div class="d-flex flex-wrap justify-content-center m-2 p-1">
+            <div class="nav_space">
+                <div class="row justify-content-center gx-1 gy-2 p-1">
+                    <div class="col-6 order-3 order-lg-1 p-1">
+                    <div id="bmenu">
+                        <nav class="button_head">
+                            <div class="px-2 py-1 mx-auto w-50">
+                                <form action="https://kubsu.ru/"> <button class="my-1 common_b">КубГУ</button> </form>
+                                <form action="#s1"> <button class="my-1 common_b">Ссылка на форму</button> </form>
+                                <form action="#menu"> <button class="my-1 common_b">Меню</button> </form>
+                            </div>
+                        </nav>
+                    </div>
+                    </div>
+                    <div class="col-6 order-3 order-lg-1 p-1">
+                    <div id="hrefs">
+                        <div class="px-2 py-2">
+                            <div class="container">
+                            <div class="row justify-content-around">
+                                <div class="col-auto">
+                                    <a href="https://www.youtube.com/">Youtube</a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="/index.html">Main</a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://github.com/">GitHub</a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://kubsu.ru/">KubSu</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-8 order-1 order-lg-3 p-1">
+                    <div id="table">
+                        <div class="p-2">
+                        <table>
+                            <tr>
+                                <th>Колонка I</th>
+                                <th>Колонка II</th>
+                                <th>Колонка III</th>
+                                <th>Колонка IV</th>
+                            </tr>
+                            <tr> <td colspan="4">Объединенные ячейки I</td> </tr>
+                            <tr> <td colspan="4">Объединенные ячейки II</td> </tr>
+                            <tr> <td colspan="4">Объединенные ячейки III</td> </tr>
+                            <tr> <td colspan="4">Объединенные ячейки IV</td> </tr>
+                            <tr>
+                                <td>Обычная ячейка I</td>
+                                <td>Обычная ячейка II</td>
+                                <td>Обычная ячейка III</td>
+                                <td>Обычная ячейка IV</td>
+                            </tr>
+                                <tr> <td colspan="4">Объединенные ячейки V</td>
+                            </tr>
+                        </table>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-8 order-4 p-1">
+                    <div id="form">
+                        <div class="p-2">
+                        <form id="s1">
+                            <label for="name">ФИО:</label>
+                            <input type="text" id="name" name="name" placeholder="ФИО"><br>
+                            <label for="mobile">Телефон:</label>
+                            <input type="tel" id="mobile" name="tele" placeholder="8 900 100 20 30"><br>
+                            <label for="mail">Почта:</label>
+                            <input type="email" id="mail" name="mail" placeholder="mail@mail.com"><br>
+                            <label for="bdate">Дата рождения:</label>
+                            <input type="date" id="bdate" name="bdate">
+                            <p class="common">Пол:</p>
+                            <input type="radio" id="ml" name="gender" value="ml">
+                            <label for="ml">Паркет</label><br>
+                            <input type="radio" id="fml" name="gender" value="fml">
+                            <label for="fml">Ламинат</label><br><br>
+                            <label for="lang">Любимый ЯП</label><br>
+                            <select id="lang" name="pr-ln" multiple>
+                                <option value="pascal">Pascal</option>
+                                <option value="c">C</option>
+                                <option value="cpp">C++</option>
+                                <option value="javascript">JavaScript</option>
+                                <option value="php">PHP</option>
+                                <option value="python">Python</option>
+                                <option value="java">Java</option>
+                                <option value="haskell">Haskell</option>
+                                <option value="clojure">Clojure</option>
+                                <option value="prolog">Prolog</option>
+                                <option value="scala">Scala</option>
+                            </select><br>
+                            <label for="bio">Биография</label><br>
+                                <textarea id="bio" name="bio" rows=4></textarea><br><br>
+                                <input type="checkbox" id="check" name="cbox" value="check">
+                                <label for="check" id="contract">С контрактом ознакомлен</label><br>
+                                <input type="submit" value="Сохранить" formaction="index.html">
+                        </form>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foot_space">
+                <p class="footer">(R) Все права защищены</p>
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>

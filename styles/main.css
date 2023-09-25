@@ -1,0 +1,269 @@
+footer {
+	color: white;
+	font-size: 26px;
+	font-style: italic;
+}
+
+#menu {
+	font-size: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 160px;
+	background-color: #e8dd93;
+	border-radius: 8px;
+	border: 5px solid #4f5010;
+}
+
+.foot_space {
+	display: flex;
+	justify-content: center;
+	width: auto;
+	background-color: #595959;
+	height: auto;
+	border-radius: 8px;
+	border: 4px solid #202020;
+}
+
+.nav_space {
+	display: flex;
+	background-color: #e9e5d0;
+	max-width: 100%;
+	border-radius: 8px;
+	border: 6px solid #e4ceb7;
+}
+
+#bmenu {
+	background-color: #b5c5df;
+	border-radius: 8px;
+	border: 5px solid #30425e;
+}
+
+#table {
+	background-color: #9bbe9f;
+	border-radius: 8px;
+	border: 5px solid #748c69;
+}
+
+#hrefs {
+	background-color: #9bbe9f;
+	border-radius: 8px;
+	border: 5px solid #748c69;
+}
+
+#form {
+	background-color: #9bbe9f;
+	border-radius: 8px;
+	border: 5px solid #748c69;
+}
+
+.button_space {
+	background-color: #b5c5df;
+	height: auto;
+	border-radius: 8px;
+	border: 5px solid #30425e;
+}
+
+button.common_b {
+	width: 100%;
+  font-family: "Calibri";
+  height: auto + 2px;
+  font-size: 20px;
+	font-style: italic;
+	background: linear-gradient(#fff1ff, #fedbff);
+	border-radius: 8px;
+	border: 2px solid #6a486b;
+}
+
+button.common_b:hover {
+  font-family: "Calibri";
+  height: auto + 2px;
+  font-size: 20px;
+	font-style: italic;
+	background: linear-gradient(#dec0df, #fee6ff);
+	border-radius: 8px;
+	border: 2px solid #6a486b;
+}
+
+body {
+	border-radius: 8px;
+	border: 3px solid #d4d4d4;
+	background-color: #dddad8;
+}
+
+h1 {
+	line-height: 2;
+	text-align: left;
+	font-size: 26px;
+	color: #262626;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form input[type="date"],
+form select,
+form textarea {
+  background: #e6f6e8;
+  border: 2px solid #677b63;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+form input[type="radio"] {
+}
+
+form textarea {
+  resize: vertical;
+}
+
+li {
+	color: #262626;
+	letter-spacing: 2px;
+}
+
+input[type="date"], option, label, p.common {
+	color: #262626;
+	width: auto;
+	letter-spacing: 2px;
+}
+
+p.footer {
+	color: white;
+	width: letter-spacing;
+	letter-spacing: 1px;
+}
+
+a {
+	text-shadow: 4;
+	line-height: 1;
+	color: #44795b;
+	letter-spacing: 2px;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+.image1 {
+  width: 120px;
+  height: 120px;
+  float: left;
+  border-radius: 8px;
+  border: 2px solid slategray;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  filter: grayscale(50%);
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+td, tr, th {
+	border: 2px solid #748c69;
+	width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #deffe5;
+}
+
+tr:nth-child(odd) {
+  background-color: #c0e8c2;
+}
+
+form input[type="submit"] {
+  font-family: "Calibri";
+  height: auto + 2px;
+  font-size: 16px;
+	font-style: italic;
+	background: linear-gradient(#f5fff4, #a6e7a7);
+	border-radius: 8px;
+	border: 2px solid #51654f;
+}
+
+form input[type="submit"]:hover {
+  font-family: "Calibri";
+  height: auto + 2px;
+  font-size: 22px;
+	font-style: italic;
+	background: linear-gradient(#a6e7a7, #f5fff4);
+	border-radius: 8px;
+	border: 2px solid #51654f;
+}
+
+html {
+	background-color: #faf9ec;
+	font-size: 18px;
+	font-family: "Calibri";
+}
+
+/* ====================================== */
+
+@media (min-width: 768px) {
+	.nav_space {
+		max-width: 90%;
+	}
+
+	header {
+		background-color: #89D8E8;
+		border: 3px solid #23373B;
+	}
+
+	form input[type="submit"] {
+		font-size: 20px;
+	}
+
+	table {
+  	font-size: 18px;
+	}
+
+	button.common_b {
+  	font-size: 20px;
+	}
+
+	button.common_b:hover {
+  	font-size: 20px;
+	}
+
+	#menu {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.nav_space {
+		max-width: 75%;
+	}
+
+	header {
+		background-color: #EAD3F2;
+		border: 5px solid #A393A8;
+	}
+
+	form input[type="submit"] {
+		font-size: 22px;
+	}
+
+	table {
+  	font-size: 20px;
+	}
+
+	button.common_b {
+  	font-size: 22px;
+	}
+
+	button.common_b:hover {
+  	font-size: 22px;
+	}
+
+	#menu {
+		font-size: 20px;
+	}
+}
+}
