@@ -49,6 +49,7 @@ header {
 }
 
 #hrefs {
+	font-size: 16px;
 	background-color: #9bbe9f;
 	border-radius: 8px;
 	border: 5px solid #748c69;
@@ -89,8 +90,6 @@ button.common_b:hover {
 }
 
 body {
-	border-radius: 8px;
-	border: 3px solid #d4d4d4;
 	background-color: #dddad8;
 }
 
@@ -196,8 +195,6 @@ form input[type="submit"]:hover {
 }
 
 html {
-	background-color: #faf9ec;
-	font-size: 16px;
 	font-family: "San Francisco";
 }
 
@@ -206,10 +203,6 @@ html {
 @media (min-width: 768px) {
 	html {
 		font-family: "Calibri";
-	}
-
-	.nav_space {
-		max-width: 90%;
 	}
 
 	header {
@@ -221,7 +214,7 @@ html {
 		font-size: 20px;
 	}
 
-	table {
+	table, #hrefs {
   	font-size: 18px;
 	}
 
@@ -239,9 +232,6 @@ html {
 }
 
 @media (min-width: 992px) {
-	.nav_space {
-		max-width: 75%;
-	}
 
 	header {
 		background-color: #EAD3F2;
@@ -252,7 +242,7 @@ html {
 		font-size: 22px;
 	}
 
-	table {
+	table, #hrefs {
   	font-size: 20px;
 	}
 
