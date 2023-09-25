@@ -69,22 +69,23 @@ header {
 }
 
 button.common_b {
-	width: 100%;
-  font-family: "Calibri";
+	font-family: "San Francisco";
   height: auto + 2px;
   font-size: 18px;
 	font-style: italic;
 	background: linear-gradient(#fff1ff, #fedbff);
+	color: black;
 	border-radius: 8px;
 	border: 2px solid #6a486b;
 }
 
 button.common_b:hover {
-  font-family: "Calibri";
+  font-family: "San Francisco";
   height: auto + 2px;
   font-size: 18px;
 	font-style: italic;
 	background: linear-gradient(#dec0df, #fee6ff);
+	color: black;
 	border-radius: 8px;
 	border: 2px solid #6a486b;
 }
@@ -177,19 +178,23 @@ tr:nth-child(odd) {
 }
 
 form input[type="submit"] {
+	font-family: "San Francisco";
   height: auto + 2px;
   font-size: 14px;
 	font-style: italic;
 	background: linear-gradient(#f5fff4, #a6e7a7);
+	color: black;
 	border-radius: 8px;
 	border: 2px solid #51654f;
 }
 
 form input[type="submit"]:hover {
+	font-family: "San Francisco";
   height: auto + 2px;
   font-size: 14px;
 	font-style: italic;
 	background: linear-gradient(#a6e7a7, #f5fff4);
+	color: black;
 	border-radius: 8px;
 	border: 2px solid #51654f;
 }
@@ -202,6 +207,22 @@ html {
 
 @media (min-width: 768px) {
 	html {
+		font-family: "Calibri";
+	}
+
+	button.common_b {
+		font-family: "Calibri";
+	}
+	
+	button.common_b:hover {
+	  font-family: "Calibri";
+	}
+
+	form input[type="submit"] {
+		font-family: "Calibri";
+	}
+	
+	form input[type="submit"]:hover {
 		font-family: "Calibri";
 	}
 
